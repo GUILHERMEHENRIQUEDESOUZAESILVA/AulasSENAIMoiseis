@@ -1,0 +1,74 @@
+/*------ Definir todos os itens para padrao 0 ---------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*-----------------------------------------------------*/
+
+/*-------- Este é o fundo da minha página -------------*/
+body{
+  background-color: rgba(95, 141, 160, 0.808); 
+  min-width: 314px;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+/*-----------------------------------------------------*/
+/*======================================================================*/
+
+
+
+header{
+    margin-left: 60px;
+    padding: 10px;
+    max-width: 450px;
+}
+
+
+h1{
+    font-size: 1.5rem;
+}
+
+form{
+    margin: 15px;
+
+}
+
+fieldset{
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    border: 5px groove rgba(0, 0, 0, 0.39)
+}
+
+legend{
+    padding: 5px;
+    
+}
+
+label{
+    margin-bottom: 100px;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.dados-nome{
+    margin-right: 50px;
+}
+
+button{
+    padding: 7px;
+}
+
+
+
+
+
+
+

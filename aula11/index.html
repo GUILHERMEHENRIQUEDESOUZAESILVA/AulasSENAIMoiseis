@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Meu primeiro formulario</h1>
+        <p>Complete suas informaçoes</p>
+        <hr>
+    </header>
+
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <div class="dados-nome">
+            <label  for="nome">Nome</label>
+            <input required placeholder="&#x1F449; Digite seu nome aqui &#x1F448;" id="nome" type="text">
+            </div>
+              
+
+            <div class="dados-email">
+            <label for="email">Email</label>
+            <input required placeholder="&#x1F449; Digite seu nome aqui &#x1F448;"  id="email" type="email">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecione</legend>
+            <div class="selecao">
+            <label for="">Escolha um dos itens</label>
+            <select name="" id="selecao">
+                <option selected disabled>Selecionar</option>
+                <option value="">item2</option>
+                <option value="">item3</option>
+                <option value="">item4</option>
+                <option value="">item5</option>
+            </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Radio Button</legend>
+            <div clas="radio-button">
+            <input type="radio" name="bt-radio" id="bt-radio1">
+            <label for="bt-radio1">Item1</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio2">
+            <label for="bt-radio2">Item2</label>
+
+            <input type="radio" name="bt-radio" id="bt-radio3">
+            <label for="bt-radio3">item3</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>CheckBox</legend>
+            <div class="checagem">
+            <input type="checkbox" name="checkbox" id="check1">
+            <label for="check1">Item1</label>
+
+            <input type="checkbox" name="checkbox" id="check2">
+            <label for="check2">Item2</label>
+
+            <input type="checkbox" name="checkbox" id="check3">
+            <label for="check3">item3</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Area de Texto</legend>
+            <div class="usertext">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+            
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </form>
+</body>
+</html>
