@@ -1,0 +1,40 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color:   #6ec9fd  
+
+}
+     
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:   rgba(110, 201, 253, 0.815);
+    padding: 10px 20px;
+}
+
+h1{
+    line-height: 0.9em;
+    margin-right: 20px;
+}
+
+#navegador{
+    display: flex;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+#fundoimg{
+    width: 100vh;
+}
+#ironBird{
+    width: 120px;
+}
