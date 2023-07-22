@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#viagens{
+    color: blue;
+}
+
+#textoBemVindo{
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#titulo{
+    color: #097ffe;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 40px;
+}
+#BIRDIRON{
+    color: black;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6ec9fde8;
+    height: 70px;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+#ironBird{
+    width: 120px;
+    padding-left: 20px;
+}
+
+
+
+
+.sessao1{
+    column-count: 2;
+    background-color:#6ec9fdeb;
+}
+#introimg{
+    display: flex;
+    height: 100vh;
+    max-height: 100vh;
+    
+    padding-left: 30px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+}
